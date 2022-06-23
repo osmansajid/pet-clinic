@@ -7,7 +7,7 @@ public interface CrudService<T,ID> {
 
     Set<T> findAll();
 
-    T save(ID id,T t);
+    T save(T t);
 
     void delete(T t);
 
